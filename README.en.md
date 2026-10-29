@@ -27,7 +27,7 @@ I'm a **Computer Engineer** from Caracas, Venezuela 🇻🇪. Since 2022 I've be
 <table>
   <tr>
     <td align="center"><h3>190K+</h3><sub>registered users</sub></td>
-    <td align="center"><h3>US$75M+</h3><sub>moved through fiat ramps</sub></td>
+    <td align="center"><h3>US$75M+</h3><sub>processed volume (cumulative)</sub></td>
     <td align="center"><h3>4×</h3><sub>monthly operations in 2 years</sub></td>
     <td align="center"><h3>500+</h3><sub>merged PRs in the wallet</sub></td>
   </tr>
@@ -40,7 +40,8 @@ I own architecture, mobile (Flutter), payments, security and releases with a tea
 | | Problem → Solution → Result |
 |---|---|
 | 🔐 **MPC with zero loss** | The wallet relied on seed phrases → integrated MPC/TSS (Particle) into the Flutter app and led the migration → **3,500+ funded users migrated, zero loss of funds** |
-| ⚡ **Sends that don't fail** | A share of ERC-4337 sends were failing → traced the root cause (UserOp nonce) and moved it client-side → **−83% send failures** and **−64% gas** per transaction |
+| ⚡ **Sends that don't fail** | In a production sample, 25 of 30 failed sends (**~83%**) shared one cause: the UserOp nonce → moved nonce handling client-side with a per-account, per-chain queue → **that cause is removed by design** · [Read the case →](https://josegalvis.vercel.app/casos/nonce-userops/en) |
+| ⛽ **Cheaper gas** | Fixed gas limits and fee retries → migrated paymaster and bundler to Alchemy with dynamic estimation → **−64% gas** per sponsored transaction · [Read the case →](https://josegalvis.vercel.app/casos/paymaster-alchemy/en) |
 | 💸 **Cheaper infrastructure** | US$80/day on RPC → diagnosed a miscalibrated deposit monitor → **−75% cost (~US$22K a year)** while operations grew 4× |
 | 💳 **10+ payment rails** | Bridge, Ripio, Pago Móvil, Bizum, Zelle, PayPal, Stripe, Ramp and KYC with Sumsub, across 9 markets |
 

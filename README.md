@@ -27,7 +27,7 @@ Soy **Ingeniero en Informática** de Caracas, Venezuela 🇻🇪. Desde 2022 soy
 <table>
   <tr>
     <td align="center"><h3>190K+</h3><sub>usuarios registrados</sub></td>
-    <td align="center"><h3>US$75M+</h3><sub>movidos en rampas fiat</sub></td>
+    <td align="center"><h3>US$75M+</h3><sub>volumen procesado (acumulado)</sub></td>
     <td align="center"><h3>×4</h3><sub>operaciones mensuales en 2 años</sub></td>
     <td align="center"><h3>500+</h3><sub>PRs mergeados en la wallet</sub></td>
   </tr>
@@ -40,7 +40,8 @@ Lidero arquitectura, mobile (Flutter), pagos, seguridad y releases con un equipo
 | | Problema → Solución → Resultado |
 |---|---|
 | 🔐 **MPC sin perder fondos** | La wallet dependía de frases semilla → integré MPC/TSS (Particle) en la app Flutter y lideré la migración → **3.500+ usuarios con saldo migrados, cero pérdida de fondos** |
-| ⚡ **Envíos que no fallan** | Una parte de los envíos ERC-4337 fallaba → rastreé la causa raíz (nonce de UserOps) y la llevé al cliente → **−83 % de errores de envío** y **−64 % de gas** por transacción |
+| ⚡ **Envíos que no fallan** | En una muestra de producción, 25 de 30 envíos fallidos (**~83 %**) tenían una misma causa: el nonce de las UserOps → llevé el nonce al cliente con una cola por cuenta y red → **esa causa queda eliminada por diseño** · [Ver caso →](https://josegalvis.vercel.app/casos/nonce-userops) |
+| ⛽ **Gas más barato** | Límites de gas fijos y reintentos por fees → migré paymaster y bundler a Alchemy con estimación dinámica → **−64 % de gas** por transacción patrocinada · [Ver caso →](https://josegalvis.vercel.app/casos/paymaster-alchemy) |
 | 💸 **Infraestructura más barata** | US$ 80/día en RPC → diagnostiqué un monitor de depósitos mal calibrado → **−75 % de costo (~US$ 22K al año)** mientras las operaciones crecían ×4 |
 | 💳 **10+ rieles de pago** | Bridge, Ripio, Pago Móvil, Bizum, Zelle, PayPal, Stripe, Ramp y KYC con Sumsub, en 9 mercados |
 
