@@ -6,7 +6,8 @@
 
 <br/>
 
-<a href="./cv/Jose-Galvis-Resume-EN.pdf"><img src="https://img.shields.io/badge/📄_View_my_resume-0F766E?style=for-the-badge" alt="Resume" /></a>
+<a href="https://josegalvis.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-7C3AED?style=for-the-badge" alt="Portfolio" /></a>
+<a href="https://josegalvis.vercel.app/cv/en"><img src="https://img.shields.io/badge/📄_View_my_resume-0F766E?style=for-the-badge" alt="Resume" /></a>
 <a href="https://linkedin.com/in/josegalvisrivas"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:jose.galvis.rivas@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://x.com/josegalvis27"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
@@ -21,7 +22,7 @@
 
 ### 👋 About me
 
-I'm a **Computer Engineer** from Caracas, Venezuela 🇻🇪. Since 2022 I've been **CTO of [Coco Wallet](https://cocowallet.app) and Coco Mercado**, a self-custodial dollar wallet with fiat ramps in 9 countries across the Americas and Europe, and I'm **co-founder of Staff On**, a temporary event staffing marketplace.
+I'm a **Computer Engineer** from Caracas, Venezuela 🇻🇪. Since 2022 I've been **CTO of [Coco Wallet](https://cocowallet.app) and Coco Mercado**, a self-custodial dollar wallet with fiat ramps in 9 countries across the Americas and Europe, and I'm **co-founder of [Staff On](https://staffon.app)**, a temporary event staffing marketplace.
 
 <table>
   <tr>
@@ -49,6 +50,7 @@ I own architecture, mobile (Flutter), payments, security and releases with a tea
 |---|---|---|
 | 🎰 **Millo** | On-chain lottery inside Coco Wallet on Megapot (Base): gasless USDC tickets and a daily draw | [Demo](https://megapot-three.vercel.app) · [Code](https://github.com/josegalvis27/millo) |
 | ✈️ **Rumbo** | Travel mini app for Coco Wallet: flights, stays and tours paid in USDC | [Code](https://github.com/josegalvis27/rumbo) |
+| 🧑‍💼 **Staff On** | Verified event staffing marketplace in Caracas: Flutter app, Node.js API and dashboard. I'm co-founder | [staffon.app](https://staffon.app) |
 | 🗳️ **Quórum** | Verifiable voting with ZK proofs (Semaphore v4) anchored on Base · Platanus Hack 26 | [Demo](https://quorum-sefw.onrender.com) · [Code](https://github.com/platanus-hack/platanus-hack-26-ve-team-3) |
 | 🏋️ **José Fit** | Workout PWA that works offline at the gym | [Demo](https://jose-fit.vercel.app) · [Code](https://github.com/josegalvis27/jose-fit) |
 | 🕹️ **Caracas arcade** | 5 Phaser 3 games: ¡Trompazo!, ¡Hay Puesto!, Metro ¡Hora Pico! and more | [Code](https://github.com/josegalvis27/arcade-caraqueno) |
